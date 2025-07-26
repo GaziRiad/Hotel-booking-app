@@ -1,5 +1,4 @@
 import SideNavigation from "@/components/SideNavigation";
-import React from "react";
 
 export default function layout({ children }) {
   return (
