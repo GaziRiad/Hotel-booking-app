@@ -69,6 +69,7 @@ export default function UpdateProfileForm({ guest, children }) {
 }
 
 function Button() {
+  // Use useFormStatus to handle form submission state, if not a form then use useTransition
   const { pending } = useFormStatus();
 
   return (
